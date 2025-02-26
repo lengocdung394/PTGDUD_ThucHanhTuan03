@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    /* Chiều rộng 100% */
+    box-sizing: border-box;
+    /* Tính cả border và padding */
+}
+.footer {
+    background-color: #1a1a1a;
+    /* Màu nền tối */
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about {
+    flex: 1;
+    margin-right: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
