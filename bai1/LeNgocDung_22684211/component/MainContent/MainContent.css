@@ -1,0 +1,39 @@
+/*phan giua*/
+#buttons button {
+    padding: 10px 10px;
+    background-color: #FF4081;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content{
+    height: 600px;
+}
+#buttons  {
+    margin-left: 70px;
+}
+
+#right p {
+    font-size: 15px;
+    margin-left: 70px;
+    font-weight: normal;
+}
+
+img {
+    margin-left: 120px
+}
+
+.content {
+    display: flex;
+}
+
+#left {
+    flex: 2;
+}
+
+#right {
+    flex: 2;
+}
