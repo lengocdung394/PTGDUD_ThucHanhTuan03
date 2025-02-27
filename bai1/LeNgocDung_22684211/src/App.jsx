@@ -5,12 +5,11 @@ import Footer from '../component/Footer/Footer.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
-
+   
   return (
     <>
-    <Header></Header>
-    <Footer></Footer>
-        
+      <Header></Header>
+      <Footer></Footer>
     </>
   )
 }

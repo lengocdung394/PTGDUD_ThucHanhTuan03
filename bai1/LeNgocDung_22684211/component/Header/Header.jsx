@@ -3,7 +3,7 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div class="header">
+        <>
             <header class="navbar">
                 <div class="logo">Chefify</div>
                 <div class="search-container">
@@ -21,6 +21,6 @@ export default function Header() {
                     <img src="image.jpg" alt="User Profile" class="profile-image"/>
                 </div>
             </header>
-        </div>
+        </>
     )
 }
