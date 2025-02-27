@@ -51,7 +51,6 @@
       text-decoration: none;
       color: #555;
       font-weight: 500;
-      transition: color 0.3s;
     }
 
     .nav-links a:hover {
@@ -87,31 +86,95 @@
       border-radius: 50%;
     }
 
-    /* .footer {
+    .footer {
       background-color: #1a1a1a;
-     
+      display: flex;
       color: white;
       padding: 40px 30px;
     }
 
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+
+    .learn,
+    .recipes {
+      flex: 1;
+      padding: 0;
     }
 
-    .about {
-      flex: 1;
-      margin-right: 20px;
+    .footer-content {
+      flex: 3;
     }
-    footer ul li{
+
+    .footer-content {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    footer ul li {
       list-style-type: none;
 
     }
-    footer ul li a{
+
+    footer input {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    footer ul {
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 15px;
+    }
+
+    footer ul li a {
       text-decoration: none;
       color: white;
-    } */
+    }
+
+    .email-subscription button {
+      padding: 10px 20px;
+      background-color: #FF4081;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #h3 {
+      margin-top: 40px;
+    }
+
+    .footer-bottom {
+      margin-top: 100px;
+      display: flex;
+    }
+
+    /*phan giua*/
+    #buttons button {
+      padding: 10px 10px;
+      background-color: #FF4081;
+      color: white;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .content {
+      display: flex;
+    }
+    #left {
+      flex: 1;
+    }
+    #right {
+      flex: 2;
+    }
+    
   </style>
 </head>
 
@@ -133,7 +196,67 @@
       <img src="image.jpg" alt="User Profile" class="profile-image">
     </div>
   </header>
-  
+  <div class="content">
+    <div id="left"></div>
+    <div id="right">
+      <h3>Sory, no results were found for "cakescascsa"<h3>
+      <img src="" alt="">
+      <p>We have all your independence Day sweets covered</p>
+      <div id="buttons">
+        <button>Sweet Cake</button>
+        <button>Black Cake</button>
+        <button>Pozele Verde</button>
+        <button>Healthy Food</button>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="about">
+        <h3>About Us</h3>
+        <p>Welcome to our website, a wonderful place to explore and learn how to cook like a pro.</p>
+        <div class="email-subscription">
+          <input type="email" placeholder="Enter your email" class="email-input" />
+          <button class="send-button">Send</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <img src="logo.png" alt="Chefify Logo" class="footer-logo">
+        <div class="footer-logo">Chefify</div>
+        <div class="footer-rights">© 2023 Chefify Company | <a href="#">Terms of Service</a> | <a href="#">Privacy
+            Policy</a></div>
+      </div>
+
+    </div>
+    <div class="learn">
+      <h3>Learn More</h3>
+      <ul>
+        <li><a href="#">Our Cooks</a></li>
+        <li><a href="#">See Our Features</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <h3 id="h3">Shop</h3>
+      <ul>
+        <li><a href="#">Thanksgiving</a></li>
+        <li><a href="#">Halloween</a></li>
+      </ul>
+    </div>
+    <div class="recipes">
+      <h3>Recipes</h3>
+      <ul>
+        <li><a href="#">What to Cook This Week</a></li>
+        <li><a href="#">Pasta</a></li>
+        <li><a href="#">Dinner</a></li>
+        <li><a href="#">Healthy</a></li>
+        <li><a href="#">Vegetarian</a></li>
+        <li><a href="#">Vegan</a></li>
+        <li><a href="#">Christmas</a></li>
+      </ul>
+
+    </div>
+
+  </footer>
+
 </body>
 
 </html>
