@@ -45,7 +45,8 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(181, 175, 175);
+    
 }
 
 .email-subscription button {

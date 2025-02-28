@@ -38,6 +38,7 @@
     color: #555;
     font-weight: 500;
     transition: color 0.3s;
+    width: 110px;
 }
 
 .nav-links a:hover {
