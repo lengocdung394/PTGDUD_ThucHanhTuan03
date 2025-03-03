@@ -5,9 +5,10 @@ export default function Header() {
     return (
         <>
             <header class="navbar">
+                <img src="../../image/image.png" alt="" />
                 <div class="logo">Chefify</div>
                 <div class="search-container">
-                    <input type="text" class="search-input" placeholder="Search recipes..."/>
+                    <input type="text" class="search-input" placeholder="casescascsa"/>
                 </div>
                 <nav class="nav-links">
                     <a href="#">Work Book</a>
@@ -18,7 +19,7 @@ export default function Header() {
                 </nav>
                 <div class="user-profile">
                     <button class="profile-button">My Recipe Box</button>
-                    <img src="image.jpg" alt="User Profile" class="profile-image"/>
+                    <img src="../../image/image.png" alt="User Profile" class="profile-image"/>
                 </div>
             </header>
         </>

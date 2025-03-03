@@ -133,32 +133,32 @@ export default function MainContent() {
                             </div>
 
                             <div id="ratingOptions">
-                                <table class="checkbox-table">
+                                <table class="checkbox-table2">
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <label>
+                                                <label  class="custom-checkbox2">
                                                     <input type="checkbox" name="rating" value="1" /> ★
                                                 </label>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <label>
+                                                <label class="custom-checkbox2">
                                                     <input type="checkbox" name="rating" value="2" /> ★★
                                                 </label>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <label>
+                                                <label class="custom-checkbox2">
                                                     <input type="checkbox" name="rating" value="3" checked /> ★★★
                                                 </label>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <label>
+                                                <label class="custom-checkbox2">
                                                     <input type="checkbox" name="rating" value="4" /> ★★★★
                                                 </label>
                                             </td>
@@ -166,7 +166,7 @@ export default function MainContent() {
                                         </tr>
                                         <tr>
                                             <td>
-                                                <label>
+                                                <label class="custom-checkbox2">
                                                     <input type="checkbox" name="rating" value="5" /> ★★★★★
                                                 </label>
                                             </td>

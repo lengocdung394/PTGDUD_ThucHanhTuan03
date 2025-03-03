@@ -18,6 +18,7 @@
 .search-container {
     flex-grow: 1;
     margin: 0 20px;
+    position: relative;
 }
 
 .search-input {
@@ -52,11 +53,10 @@
 }
 
 .profile-button {
-    background-color: #FF4081;
-    /* Màu hồng */
-    color: white;
+    color: #FF4081;
+    background-color: rgb(244, 207, 223);
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
     margin-right: 10px;
@@ -72,4 +72,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.navbar img {
+    width: 40px;
+    height: 40px;
 }
